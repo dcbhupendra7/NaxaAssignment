@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Bhupendra/Tasks/NaxaAssgnment/src/test/java/runner/Zite.java">
+        <classes>
+            <class name="runner.Zite">
+                <methods>
+                    <include name="loginToZite"/>
+                    <include name="addNewForm"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
